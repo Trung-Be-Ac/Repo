@@ -1,0 +1,284 @@
+/* MODAL QUANG CAO */
+.modal-content {
+    position: relative;
+    padding: 0;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0;
+}
+
+.modal-body img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* TOP */
+.toppage {
+    background: linear-gradient(to bottom, #F6442E, #FD6032);
+    color: rgb(0, 0, 0);
+    height: 17%;
+    width: 120%;
+}
+
+.textToppage {
+    display: flex;
+}
+
+.textToppage a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+.textToppage b {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(226, 228, 230, 0.333);
+}
+
+.icontop {
+    margin-left: 2%;
+}
+
+.icontop img {
+
+    margin-top: 2px;
+    height: 80%;
+    width: 2%;
+}
+
+.icon img {
+    margin-left: 10%;
+    margin-top: 8px;
+    height: 50%;
+}
+
+.underSearchbox {
+    margin-left: 21.5%;
+}
+
+.underSearchbox a {
+    text-decoration: none;
+    color: rgb(235, 233, 233);
+    font-size: 13px;
+    margin-left: 6px
+}
+
+.underSearchbox a:hover {
+    background-color: #FD6032;
+}
+
+
+/* MID */
+.carousel-inner img {
+    height: 100%;
+
+}
+
+.img_ca img {
+    width: 80%;
+    border-radius: 2px;
+    height: 125px;
+}
+
+.iconUnderCarousel {
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.linkIUC {
+    text-decoration: none;
+    color: black;
+}
+
+.textIUC {
+    font-size: 75%;
+    text-align: center;
+
+}
+
+.textMid1 {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #F5F5F5;
+    }
+
+    25% {
+        color: #FF6347;
+    }
+
+    50% {
+        color: #4682B4;
+    }
+
+    75% {
+        color: #f2f606;
+    }
+
+    100% {
+        color: #12e50b;
+    }
+}
+
+.color-change {
+    animation: colorChange 3s infinite;
+}
+
+.link-under-row {
+    text-decoration: none;
+    color: black;
+}
+
+.img-under-row {
+    height: 80px;
+}
+
+.picsecondbox img {
+    height: 170px;
+    width: 170px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.picsecondbox {
+    text-decoration: none;
+    color: #EF522D;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.backgroundDBC {
+    background: linear-gradient(270deg, rgba(255, 189, 166, 1) 78%, rgba(238, 52, 18, 1) 100%);
+    color: white;
+    padding: 1px 35px;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.shopeeMall img {
+    height: 17px;
+    margin-top: 1.5%;
+}
+
+.shopeeMall span {
+    margin-top: 1.1%;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.shopeeMall a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    color: #D0011B;
+}
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+    background-color: #D0011B;
+}
+
+
+.img_c img {
+    height: 210px;
+}
+
+.ban19k {
+    background-color: #d3d3d3e5;
+    color: #ffffff;
+    padding: 2px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+
+.timkiemhangdau img {
+    height: 118px;
+    width: 90%;
+}
+
+.timkiemhangdau a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: 600;
+}
+
+
+@keyframes changeColor2 {
+    0% {
+      color: #EF5C3F; 
+    }
+    35% {
+      color: white; 
+    }
+    100% {
+      color: #D0011B; 
+    }
+  }
+  
+  .goiyhomnay {
+    display: flex;
+    border: 2px solid;
+    padding: 2%;
+    color: #EF5C3F;
+    margin-left: 43%;
+    animation: changeColor2 2s infinite; 
+  }
+  
+.row6pic a{
+    text-decoration: none;
+}
+.row6pic span{
+    color: black;
+}
+.row6pic img {
+    height: 190px;
+    width: 90%;
+    margin-left: 0%;
+}
+
+.buttonXemthem {
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #555;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.buttonXemthem:hover {
+    background-color: #ddd;
+}
+
+/* BOTTOM */
